@@ -4,9 +4,6 @@
 
 ### 🚀 Backend Developer | Node.js & TypeScript Enthusiast
 
-[![GitHub followers](https://img.shields.io/github/followers/Kenn0679?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&color=FF6B9D)](https://github.com/Kenn0679)
-[![Profile Views](https://komarev.com/ghpvc/?username=Kenn0679&style=for-the-badge&color=FF6B9D&labelColor=0D1117)](https://github.com/Kenn0679)
-
 ---
 
 ### 💫 About Me
