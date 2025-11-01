@@ -59,8 +59,6 @@ I specialize in:
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kenn0679&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&icon_color=FF6B9D)
-  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kenn0679&theme=radical&hide_border=true&background=0D1117&ring=FF6B9D&fire=FF6B9D&currStreakLabel=FF6B9D)
   
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kenn0679&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&text_color=C9D1D9)
