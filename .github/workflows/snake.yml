@@ -1,21 +1,21 @@
 name: Generate Snake
 
 on:
-    schedule:
-        # Run every day at midnight UTC
-        - cron: "0 0 * * *"
-    workflow_dispatch:
-    push:
-        branches:
-            - main
-            - master
+  schedule:
+    # Run every day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
-    generate:
-        runs-on: ubuntu-latest
-        permissions:
-            contents: write
-        steps:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
