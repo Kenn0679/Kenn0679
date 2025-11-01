@@ -16,23 +16,36 @@ jobs:
         permissions:
             contents: write
         steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
-              with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-            - name: Generate snake animation
-              uses: Platane/snk@master
-              id: snake-gif
-              with:
-                  github_user_name: Kenn0679
-                  svg_out_path: output/github-contribution-grid-snake-dark.svg
-                  gif_out_path: output/github-contribution-grid-snake.gif
+      - name: Generate snake animation
+        uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: Kenn0679
+          svg_out_path: output/github-contribution-grid-snake-dark.svg
+          gif_out_path: output/github-contribution-grid-snake.gif
 
-            - name: Commit and push
-              run: |
-                  git config --local user.email "action@github.com"
-                  git config --local user.name "GitHub Action"
-                  git add output/
-                  git diff --staged --quiet || git commit -m "Update contribution snake 🐍"
-                  git push
+      - name: Setup Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Create output directory if not exists
+        run: mkdir -p output
+
+      - name: Commit and push
+        run: |
+          git add output/
+          if ! git diff --staged --quiet; then
+            git commit -m "Update contribution snake 🐍"
+            git push origin HEAD:main || git push origin HEAD:master
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
