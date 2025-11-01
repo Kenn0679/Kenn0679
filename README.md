@@ -139,7 +139,9 @@ Explore all my projects and contributions!
 </tr>
 </table>
 
-![Contribution Snake](./output/github-contribution-grid-snake-dark.svg)
+![Contribution Snake (animated)](./output/github-contribution-grid-snake.gif)
+
+[SVG version](./output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
