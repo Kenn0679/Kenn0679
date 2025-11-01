@@ -1,82 +1,185 @@
-# Hi, I'm Ken Doan! 👋
+<div align="center">
 
-🎯 **Focusing** | Backend-focused IT student specializing in Node.js & TypeScript. Experienced with backend technologies and API development. Passionate about building scalable APIs and efficient servers.
+# 👋 Hi, I'm Ken Doan!
 
-## 🚀 About Me
+### 🚀 Backend Developer | Node.js & TypeScript Enthusiast
 
--   🎓 IT Student focusing on Backend Development
--   💻 Backend Developer specializing in Node.js & TypeScript
--   ⚙️ Specialized in Node.js & TypeScript
--   🔧 Building scalable APIs and efficient server solutions
--   📍 Based in Vietnam 🇻🇳
+[![GitHub followers](https://img.shields.io/github/followers/Kenn0679?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&color=FF6B9D)](https://github.com/Kenn0679)
+[![Profile Views](https://komarev.com/ghpvc/?username=Kenn0679&style=for-the-badge&color=FF6B9D&labelColor=0D1117)](https://github.com/Kenn0679)
 
-## 🛠️ Tech Stack
+---
 
-### My Skills
+### 💫 About Me
 
--   **Backend:**
+🎓 IT Student focusing on **Backend Development**  
+💻 Specializing in **Node.js & TypeScript**  
+🔧 Building **Scalable APIs** and **Efficient Server Solutions**  
+📍 Based in **Vietnam** 🇻🇳  
+⚡ Passionate about creating robust backend systems
 
-    -   Node.js for server-side development
-    -   TypeScript for type-safe programming
-    -   Express.js for building RESTful APIs
-    -   MongoDB for database management
+</div>
 
--   **Tools & Technologies:**
-    -   MEN Stack (MongoDB, Express, Node.js)
-    -   RESTful API Development
-    -   Git & Version Control
-    -   Server Architecture & Optimization
+---
 
-## 📘 Featured Projects
+## 🛠️ Tech Stack & Skills
 
-### [School Health Management System](https://github.com/Dannguyen04/School-Health-Management-System)
+<div align="center">
+
+### Languages & Frameworks
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+
+### Databases & Tools
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
+
+---
+
+## 💼 What I Do
+
+```typescript
+const kenDoan = {
+    role: "Backend Developer",
+    location: "Vietnam 🇻🇳",
+    education: "IT Student",
+    specialization: ["Node.js", "TypeScript", "API Development"],
+    currentFocus: ["RESTful APIs", "Server Architecture", "Database Design"],
+    techStack: {
+        backend: ["Node.js", "Express.js", "TypeScript"],
+        database: ["MongoDB"],
+        tools: ["Git", "Postman", "npm"],
+    },
+    architecture: ["RESTful", "MEN Stack"],
+    funFact: "Building scalable solutions one API endpoint at a time! 🚀",
+};
+```
+
+---
+
+## 📂 Featured Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏥 School Health Management System
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-FF6B9D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dannguyen04/School-Health-Management-System)
 
 A comprehensive health management system for schools built with JavaScript.
 
-### [EV Rental Car Backend](https://github.com/SWP391-FA25/ev_rental_car_backend)
+**Tech:** `JavaScript` `Node.js` `Express`
+
+</td>
+<td width="50%">
+
+### 🚗 EV Rental Car Backend
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-FF6B9D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SWP391-FA25/ev_rental_car_backend)
 
 Backend system for electric vehicle rental platform - SWP391 project.
 
-### [Twitter Clone](https://github.com/Kenn0679/Twitter)
+**Tech:** `TypeScript` `Node.js` `MongoDB`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🐦 Twitter Clone
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-FF6B9D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kenn0679/Twitter)
 
 Twitter clone application built for practice using TypeScript.
 
-_View all repositories → [Repositories](https://github.com/Kenn0679?tab=repositories)_
+**Tech:** `TypeScript` `Express` `RESTful API`
 
-## 💻 Backend Development
+</td>
+<td width="50%">
 
-I specialize in:
+### 📦 More Projects
 
--   Building scalable and efficient RESTful APIs
--   Server-side architecture and optimization
--   Database design and management (MongoDB)
--   TypeScript for robust backend development
--   Node.js ecosystem and best practices
--   API design and integration
--   Server performance optimization
+[![Repos](https://img.shields.io/badge/View_All-Repositories-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kenn0679?tab=repositories)
 
-## 📊 GitHub Stats
+Explore all my projects and contributions!
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📊 GitHub Statistics
 
 <div align="center">
   
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kenn0679&theme=radical&hide_border=true&background=0D1117&ring=FF6B9D&fire=FF6B9D&currStreakLabel=FF6B9D)
-  
+
+<table>
+<tr>
+<td width="50%">
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kenn0679&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&text_color=C9D1D9)
+
+</td>
+<td width="50%">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kenn0679&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&icon_color=FF6B9D&text_color=C9D1D9)
+
+</td>
+</tr>
+</table>
 
 ![Contribution Snake](https://raw.githubusercontent.com/Kenn0679/Kenn0679/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
-## 🏆 Achievements
+---
 
--   🦈 Pull Shark x2
--   🎯 YOLO Achievement
+## 🏆 Achievements & Badges
 
-## 📬 Connect With Me
+<div align="center">
 
--   💼 [GitHub Profile](https://github.com/Kenn0679)
--   📧 Feel free to reach out for collaborations or opportunities!
+![Pull Shark](https://img.shields.io/badge/🦈_Pull_Shark-x2-0D1117?style=for-the-badge&labelColor=FF6B9D)
+![YOLO](https://img.shields.io/badge/🎯_YOLO-Achievement-0D1117?style=for-the-badge&labelColor=FF6B9D)
+![Open Source](https://img.shields.io/badge/💖_Open_Source-Contributor-0D1117?style=for-the-badge&labelColor=FF6B9D)
+
+</div>
 
 ---
 
-Thanks for visiting my profile! Feel free to explore my projects and contributions. Let's build something amazing together! 🚀
+## 📫 Let's Connect!
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Kenn0679-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kenn0679)
+
+### 💬 Open for Collaborations & Opportunities!
+
+</div>
+
+---
+
+<div align="center">
+
+### ⚡ Fun Fact
+
+**"First, solve the problem. Then, write the code."** - _John Johnson_
+
+---
+
+Thanks for visiting my profile! Let's build something amazing together! 🚀
+
+</div>
