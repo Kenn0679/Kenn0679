@@ -44,18 +44,18 @@
 
 ```typescript
 const kenDoan = {
-    role: "Backend Developer",
-    location: "Vietnam 🇻🇳",
-    education: "IT Student",
-    specialization: ["Node.js", "TypeScript", "API Development"],
-    currentFocus: ["RESTful APIs", "Server Architecture", "Database Design"],
-    techStack: {
-        backend: ["Node.js", "Express.js", "TypeScript"],
-        database: ["MongoDB"],
-        tools: ["Git", "Postman", "npm"],
-    },
-    architecture: ["RESTful", "MEN Stack"],
-    funFact: "Building scalable solutions one API endpoint at a time! 🚀",
+	role: "Backend Developer",
+	location: "Vietnam 🇻🇳",
+	education: "IT Student",
+	specialization: ["Node.js", "TypeScript", "API Development"],
+	currentFocus: ["RESTful APIs", "Server Architecture", "Database Design"],
+	techStack: {
+		backend: ["Node.js", "Express.js", "TypeScript"],
+		database: ["MongoDB"],
+		tools: ["Git", "Postman", "npm"],
+	},
+	architecture: ["RESTful", "MEN Stack"],
+	funFact: "Building scalable solutions one API endpoint at a time! 🚀",
 };
 ```
 
@@ -139,7 +139,7 @@ Explore all my projects and contributions!
 </tr>
 </table>
 
-![Contribution Snake](https://raw.githubusercontent.com/Kenn0679/Kenn0679/output/github-contribution-grid-snake-dark.svg)
+![Contribution Snake](./output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
