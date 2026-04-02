@@ -22,17 +22,18 @@
 
 ```typescript
 const kenDoan = {
-	role: "Backend Developer",
+	role: "MERN developer",
 	location: "Vietnam 🇻🇳",
 	education: "IT Student",
-	specialization: ["Node.js", "TypeScript", "API Development"],
+	specialization: ["Node.js", "TypeScript", "API Development", "ReactJs"],
 	currentFocus: ["RESTful APIs", "Server Architecture", "Database Design"],
 	techStack: {
 		backend: ["Node.js", "Express.js", "TypeScript"],
 		database: ["MongoDB"],
-		tools: ["Git", "Postman", "npm"],
+		tools: ["Git", "Postman"],
+		frontend: ["Reactjs"]
 	},
-	architecture: ["RESTful", "MEN Stack"],
+	architecture: ["RESTful", "MERN Stack"],
 	funFact: "Building scalable solutions one API endpoint at a time! 🚀",
 };
 ```
