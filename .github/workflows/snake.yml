@@ -10,6 +10,11 @@ on:
       - main
       - master
 
+# One run at a time, so two runs never race to push output/.
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -47,7 +52,9 @@ jobs:
           git add output/
           if ! git diff --staged --quiet; then
             git commit -m "Update contribution snake 🐍"
-            git push origin HEAD:main || git push origin HEAD:master
+            # main may have moved while the snake was generated (e.g. a README push): rebase before pushing.
+            git pull --rebase origin main
+            git push origin HEAD:main
           else
             echo "No changes to commit"
           fi
